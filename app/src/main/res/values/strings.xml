@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Книжный магазин</string>
+    <string name="welcome">это книжный магазин, привет!</string>
+    <!--Вход-->
+    <string name="login">Войти</string>
+    <string name="log_out">Выйти</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="forget_pass">Забыли пароль? :// </string>
+    <!--Reset pass -->
+    <string name="have_account">Уже есть аккаунт? войти</string>
+    <string name="reset_pass">Поменять пароль</string>
+    <string name="receive_link">Получи письмо :3</string>
+    <!--Create Account-->
+    <string name="create_n_account">Создать новый аккаунт</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="owner_f_name">Owner\'s Имя</string>
+    <string name="owner_l_name">Owner\'s Фамилия</string>
+    <string name="f_name">Имя</string>
+    <string name="l_name">Фамилия</string>
+    <string name="ph_no">Номер телефона</string>
+    <string name="owner_ph_no">Owner\'s phone no</string>
+    <string name="for_order">For order:</string>
+    <string name="for_owner">Owner info:</string>
+    <string name="shop_name">Shop name</string>
+    <string name="GST_no">GST number</string>
+    <string name="for_company">Company info:</string>
+    <string name="address">Адресс</string>
+    <string name="pincode">Пинкод</string>
+    <!--Главная страница-->
+    <string name="title_activity_home_customer">Главная</string>
+    <string name="title_home">Главная</string>
+    <string name="title_search">Поиск книги</string>
+    <string name="title_profile">Мой профиль</string>
+    <!--Профиль-->
+    <string name="name">My name</string>
+    <string name="profile">Мой профиль</string>
+    <string name="help">Help</string>
+    <string name="contact_dev">Связаться со мной</string>
+    <string name="about">о Книжном Магазине</string>
+    <!--связаться со мной-->
+    <string name="tellproblem">Опишите проблему</string>
+    <string name="sevofproblem">Критичность проблемы</string>
+    <string name="detailaboutproblem">Детали проблемы:</string>
+    <string name="sendmail">Отправить</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_addbook">Add Books</string>
+    <string name="menu_removebooks">Remove Books</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu_booklist">Books List</string>
+    <string name="menu_info">Моя информация</string>
+    <string name="menu_profile">Мой профиль</string>
+
+    <string name="menu_feedback">Связаться с нами</string>
+    <string name="searchhere">Найдите книгу</string>
+
+    <string name="Failed_to_Load_data">Проверьте соединение с интернетом</string>
+    <string name="NO_RESULT">Ничего нет :( </string>
+    <!--О нас-->
+    <string name="about_para">Книжный магазин</string>
+    <string name="about_para1">Ассортимент предлагаемой магазинами литературы удовлетворит любые вкусы и потребности любителей книги.</string>
+    <string name="about_para10">Это приложение даст им возможность заработать на жизнь владельцам небольших магазинов.</string>
+    <string name="about_para11">Также подарит книгочеям книги, которые они хотят иметь дома (или на компе)</string>
+
+    <!--Обновить информацию-->
+    <string name="update_det">Обновить детали</string>
+    <string name="verifyemail">Подтвердите почту*</string>
+    <string name="updansave">Обновить</string>
+    <!--Найти книгу-->
+    <string name="search_ph">Найдите книгу по названию и автору</string>
+    <!--Просмотр книги-->
+    <string name="buybook">Buy Book</string>
+    <string name="rentbook">Rent Book</string>
+    <string name="read_preview">Read Book preview</string>
+    <string name="conti">Continue</string>
+    <string name="placeorder">Place Order</string>
+    <string name="pinfo">You will have to pay the money and other document(if required) on delivery. You can pay in cash or UPI, card or any other online mode too.</string>
+    <string name="addadd">Enter new address</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="change_address_for_this_order">Change Address for this order</string>
+    <string name="book_image">Название книги</string>
+    <string name="authname">Author Name</string>
+    <string name="genre">Genre</string>
+    <string name="price_details">Price details</string>
+    <string name="price_1_item">Price(1 item)</string>
+    <string name="delivery_charges">Delivery charges</string>
+    <string name="total_amount">Total amount</string>
+    <string name="payment_details">Payment details</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="final_amount_to_pay">Final amount to pay</string>
+    <string name="use_this_address_for_this_order">Use this Address for this order</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="order_placed">Order placed!</string>
+    <string name="click_on_address_to_change_address_for_this_order">(Click on address to change address and pincode for this order)</string>
+    <string name="orders_recevied">Orders recevied</string>
+    <string name="profit_earned">Profit earned*</string>
+    <string name="potential_profit">Potential profit</string>
+    <string name="descripforOTP">Give the below secret OTP to delivery boy to authenticate and securely deliver the order.</string>
+    <string name="select_the_number_of_days_for_renting">Select the number of days for renting: </string>
+    <string name="verification_documents_necessary">Verification documents necessary</string>
+    <string name="any_valid_identity_proof_like_aadhar_card_pan_card_license_card_voting_card_would_be_considered">Any valid identity proof like Aadhar card, PAN card, License card, voting card would be considered.</string>
+    <string name="any_valid_identity_proof_like_electricity_bill_rent_agreement_aadhar_card_would_be_considered">Any valid identity proof like Electricity bill, Rent agreement, Aadhar card would be considered.</string>
+    <string name="updatenview">Update/view details</string>
+    <string name="recevied">Received</string>
+    <string name="tobereceived">to be received</string>
+    <string name="rejectedorder">Order rejected</string>
+
+</resources>

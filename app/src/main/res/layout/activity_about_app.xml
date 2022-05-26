@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.AboutApp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bookcavelogo"/>
+
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/about"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="Вдохновением делать приложение именно на эту тематику послужили книги Харуки Мураками."
+            />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img_4"
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito"
+            android:text="Это японский писатель, которому сейчас чуть больше 70 лет. Он не всегда был писателем. На самом деле Мураками - плавец и бегун, у которого когда-то был свой бар."
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito"
+            android:text="@string/about_para"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
